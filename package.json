@@ -1,0 +1,17 @@
+{
+  "name": "depgraph-js",
+  "version": "0.1.0",
+  "description": "Dependency graph with topological order, cycle detection and parallel build layers.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Adrian Delacruz",
+  "license": "MIT"
+}
